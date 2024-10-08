@@ -58,7 +58,7 @@ export default async function UserPage({
   if (!loggedInUserId)
     return (
       <span className="text-destructive">
-        You're not authrized to view this page.
+        You&apos;re not authrized to view this page.
       </span>
     );
 

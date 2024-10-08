@@ -9,6 +9,7 @@ import {
   DialogContent,
   DialogHeader,
 } from "./ui";
+import Image from "next/image";
 
 interface DialogShowFullImageProps {
   open: boolean;
@@ -61,7 +62,7 @@ interface MediaPreviewProps {
 function MediaPreview({ media }: MediaPreviewProps) {
   if (media.type === "IMAGE")
     return (
-      <img
+      <Image
         src={media.url}
         alt="Attachment"
         className="mx-auto h-full w-[500px] rounded-2xl object-cover"

@@ -47,7 +47,7 @@ export default async function PostPage({ params: { postId } }: PostPageProps) {
   if (!user)
     return (
       <span className="text-destructive">
-        You're not authrized to view this page.
+        You&apos;re not authrized to view this page.
       </span>
     );
 
