@@ -29,7 +29,7 @@ export default function LoginPage() {
             </div>
             <LoginForm />
             <div className="flex items-center justify-center gap-1">
-              <span>Don't have an account?</span>
+              <span>Don&apos;t have an account?</span>
               <Link
                 href={`/${path.AUTH}/${path.SIGN_UP}`}
                 className="text-blue-700 transition-all hover:underline"
